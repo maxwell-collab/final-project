@@ -1,0 +1,90 @@
+/* General Aesthetics */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    /* 4. Background Styling */
+    background: linear-gradient(to bottom, #ffffff, #f5f5f5);
+}
+
+/* 6. Menu Bar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+    color: white;
+    padding: 1rem 5%;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+    font-weight: bold;
+}
+
+/* 1. Two Column Layout */
+.hero-section {
+    display: flex;
+    padding: 50px 10%;
+    align-items: center;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+}
+
+/* 2. Container Styling */
+.container {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.container img {
+    width: 100%;
+    display: block;
+}
+
+/* 3. Full-length Tables */
+.full-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.full-table th, .full-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.full-table th {
+    background-color: #111;
+    color: white;
+}
+
+/* 8. Formatted Paragraph */
+.highlight-text {
+    font-weight: bold;
+    color: #ff5f00;
+    font-size: 1.2rem;
+}
+
+/* 11. Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+    color: white;
+    margin-top: 50px;
+}
