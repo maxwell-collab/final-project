@@ -2,61 +2,54 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nike Shoes Services</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Nike Services</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f2f2f2;
+        }
+        .container {
+            display: flex;
+            gap: 20px;
+        }
+        .service-box {
+            background: white;
+            padding: 15px;
+            width: 30%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px gray;
+        }
+        img {
+            width: 100%;
+            border-radius: 10px;
+        }
+    </style>
 </head>
 <body>
 
-    <!-- Navigation Bar -->
-    <nav class="navbar">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="service.html">Services</a></li>
-            <li><a href="media.html">Media</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+<h1>Nike Shoe Services</h1>
 
-    <!-- Services Section -->
-    <section class="services-section">
-        <h2>Our Nike Shoe Services</h2>
-        <p>Explore premium services designed to improve your Nike shoe experience.</p>
+<div class="container">
 
-        <table class="full-table">
-            <tr>
-                <th>Service</th>
-                <th>Description</th>
-                <th>Price</th>
-            </tr>
-            <tr>
-                <td>Nike By You</td>
-                <td>Customize your own Nike shoes with colors, style, and design.</td>
-                <td>+$30</td>
-            </tr>
-            <tr>
-                <td>Shoe Cleaning</td>
-                <td>Professional cleaning service to keep your Nike shoes fresh and new.</td>
-                <td>$15</td>
-            </tr>
-            <tr>
-                <td>Size Fitting</td>
-                <td>Get expert help in choosing the perfect Nike shoe size.</td>
-                <td>Free</td>
-            </tr>
-            <tr>
-                <td>Sport Performance Advice</td>
-                <td>Recommendations on the best Nike shoes for running, basketball, and training.</td>
-                <td>Free</td>
-            </tr>
-        </table>
+    <div class="service-box">
+        <h2>Customization</h2>
+        <img src="https://via.placeholder.com/300x200" alt="Nike Custom">
+        <p>Design your own Nike shoes with custom colors and styles.</p>
+    </div>
 
-        <div class="added-feature">
-            <h3>Feature: Nike Move to Zero</h3>
-            <p>Discover eco-friendly Nike shoes and learn how your shoe choices support a cleaner planet.</p>
-        </div>
-    </section>
+    <div class="service-box">
+        <h2>Fast Delivery</h2>
+        <img src="https://via.placeholder.com/300x200" alt="Delivery">
+        <p>Get your Nike shoes delivered quickly and safely.</p>
+    </div>
+
+    <div class="service-box">
+        <h2>Repair Services</h2>
+        <img src="https://via.placeholder.com/300x200" alt="Repair">
+        <p>We repair worn-out Nike shoes and restore them.</p>
+    </div>
+
+</div>
 
 </body>
 </html>
