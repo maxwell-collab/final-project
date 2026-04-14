@@ -3,58 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <title>Nike Media</title>
+
     <style>
         body {
-            font-family: Arial;
+            font-family: Arial, sans-serif;
             background-color: #111;
             color: white;
+            margin: 0;
+            padding: 0;
         }
+
+        h1 {
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* NAVBAR */
+        .navbar {
+            background: black;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        .navbar a:hover {
+            color: red;
+        }
+
+        /* MEDIA GRID */
         .media-container {
             display: flex;
             flex-wrap: wrap;
-            gap: 20px;
             justify-content: center;
+            gap: 20px;
+            padding: 20px;
         }
+
         .box {
             width: 300px;
             background: #222;
             padding: 10px;
             border-radius: 10px;
+            box-shadow: 0 0 10px black;
         }
+
         img, iframe {
             width: 100%;
             border-radius: 10px;
         }
+
+        /* FOOTER */
+        footer {
+            background: black;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
     </style>
 </head>
+
 <body>
+
+<!-- NAVIGATION BAR -->
+<div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="media.html">Media</a>
+    <a href="contact.html">Contact</a>
+</div>
 
 <h1>Nike Shoes Gallery</h1>
 
+<!-- MEDIA CONTENT -->
 <div class="media-container">
 
-    <!-- ✅ WORKING SHOE IMAGES (UNSPLASH - SAFE) -->
+    <!-- ✅ 5 NIKE-STYLE SHOE IMAGES -->
     <div class="box">
-        <img src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519" alt="Nike Shoe">
+        <img src="https://images.unsplash.com/photo-1549298916-b41d501d3772" alt="Nike Shoe">
     </div>
 
     <div class="box">
-        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff" alt="Nike Shoe">
-    </div>
-
-    <div class="box">
-        <img src="https://images.unsplash.com/photo-1528701800489-20be3c2ea4b4" alt="Nike Shoe">
-    </div>
-
-    <div class="box">
-        <img src="https://images.unsplash.com/photo-1519741497674-611481863552" alt="Nike Shoe">
+        <img src="https://images.unsplash.com/photo-1608231387042-66d1773070a5" alt="Nike Shoe">
     </div>
 
     <div class="box">
         <img src="https://images.unsplash.com/photo-1584735175315-9d5df23be620" alt="Nike Shoe">
     </div>
 
-    <!-- ✅ WORKING VIDEOS (EMBED SAFE) -->
+    <div class="box">
+        <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a" alt="Nike Shoe">
+    </div>
+
+    <div class="box">
+        <img src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519" alt="Nike Shoe">
+    </div>
+
+    <!-- ✅ 5 WORKING VIDEOS -->
     <div class="box">
         <iframe height="200"
             src="https://www.youtube.com/embed/Fq2CvmgoO7I"
@@ -91,6 +142,11 @@
     </div>
 
 </div>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 Nike Shoes Website | Designed by Maxwell Babu</p>
+</footer>
 
 </body>
 </html>
