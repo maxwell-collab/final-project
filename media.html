@@ -20,7 +20,7 @@
             padding: 10px;
             border-radius: 10px;
         }
-        img, video {
+        img, iframe, video {
             width: 100%;
             border-radius: 10px;
         }
@@ -32,35 +32,65 @@
 
 <div class="media-container">
 
-    <!-- Images -->
+    <!-- ✅ IMAGES (ONLINE - ALWAYS WORK) -->
     <div class="box">
-        <img src="https://via.placeholder.com/300x200" alt="Nike Air Max">
+        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff" alt="Nike Air Max">
     </div>
 
     <div class="box">
-        <img src="https://via.placeholder.com/300x200" alt="Nike Jordan">
+        <img src="https://images.unsplash.com/photo-1519741497674-611481863552" alt="Nike Running">
     </div>
 
     <div class="box">
-        <img src="https://via.placeholder.com/300x200" alt="Nike Running">
+        <img src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519" alt="Nike Sneakers">
     </div>
 
-    <!-- Videos -->
+    <!-- ✅ OPTION 1: YOUTUBE VIDEOS (RECOMMENDED) -->
+    <div class="box">
+        <iframe height="200"
+            src="https://www.youtube.com/embed/2QjPzG4H4v8"
+            frameborder="0"
+            allowfullscreen>
+        </iframe>
+    </div>
+
+    <div class="box">
+        <iframe height="200"
+            src="https://www.youtube.com/embed/0VjZz0rR7hM"
+            frameborder="0"
+            allowfullscreen>
+        </iframe>
+    </div>
+
+    <div class="box">
+        <iframe height="200"
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+            frameborder="0"
+            allowfullscreen>
+        </iframe>
+    </div>
+
+    <!-- ✅ OPTION 2: LOCAL VIDEOS (USE IF YOU HAVE FILES) -->
+    <!-- Put your videos in a folder called "videos" -->
+
     <div class="box">
         <video controls>
-            <source src="video1.mp4" type="video/mp4">
+            <source src="videos/nike1.mp4" type="video/mp4">
+            Your browser does not support video.
         </video>
     </div>
 
     <div class="box">
         <video controls>
-            <source src="video2.mp4" type="video/mp4">
+            <source src="videos/nike2.mp4" type="video/mp4">
+            Your browser does not support video.
         </video>
     </div>
 
     <div class="box">
         <video controls>
-            <source src="video3.mp4" type="video/mp4">
+            <source src="videos/nike3.mp4" type="video/mp4">
+            Your browser does not support video.
         </video>
     </div>
 
