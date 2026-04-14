@@ -20,7 +20,7 @@
             padding: 10px;
             border-radius: 10px;
         }
-        img, iframe, video {
+        img, video, iframe {
             width: 100%;
             border-radius: 10px;
         }
@@ -32,7 +32,9 @@
 
 <div class="media-container">
 
-    <!-- ✅ IMAGES (ONLINE - ALWAYS WORK) -->
+    <!-- ================= IMAGES ================= -->
+
+    <!-- ✅ OPTION 1: ONLINE IMAGES (RECOMMENDED) -->
     <div class="box">
         <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff" alt="Nike Air Max">
     </div>
@@ -44,6 +46,21 @@
     <div class="box">
         <img src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519" alt="Nike Sneakers">
     </div>
+
+    <!-- ❌ OPTION 2: LOCAL IMAGES (UNCOMMENT TO USE) -->
+    <!--
+    <div class="box">
+        <img src="images/nike1.jpg" alt="Nike Shoe">
+    </div>
+    <div class="box">
+        <img src="images/nike2.jpg" alt="Nike Shoe">
+    </div>
+    <div class="box">
+        <img src="images/nike3.jpg" alt="Nike Shoe">
+    </div>
+    -->
+
+    <!-- ================= VIDEOS ================= -->
 
     <!-- ✅ OPTION 1: YOUTUBE VIDEOS (RECOMMENDED) -->
     <div class="box">
@@ -70,29 +87,26 @@
         </iframe>
     </div>
 
-    <!-- ✅ OPTION 2: LOCAL VIDEOS (USE IF YOU HAVE FILES) -->
-    <!-- Put your videos in a folder called "videos" -->
-
+    <!-- ❌ OPTION 2: LOCAL VIDEOS (UNCOMMENT TO USE) -->
+    <!--
     <div class="box">
         <video controls>
             <source src="videos/nike1.mp4" type="video/mp4">
-            Your browser does not support video.
         </video>
     </div>
 
     <div class="box">
         <video controls>
             <source src="videos/nike2.mp4" type="video/mp4">
-            Your browser does not support video.
         </video>
     </div>
 
     <div class="box">
         <video controls>
             <source src="videos/nike3.mp4" type="video/mp4">
-            Your browser does not support video.
         </video>
     </div>
+    -->
 
 </div>
 
